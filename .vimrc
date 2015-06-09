@@ -16,6 +16,9 @@ set listchars=tab:>-
 set listchars+=trail:.
 set ignorecase
 set smartcase
+set lazyredraw
+set foldenable
+set foldlevelstart=10
 map <C-t><up> :tabr<cr>
 map <C-t><down> :tabl<cr>
 map <C-t><left> :tabp<cr>
